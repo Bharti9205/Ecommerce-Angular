@@ -1,0 +1,16 @@
+<div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h1 class="signup">Seller Sign-Up</h1>
+                    <form #sell="ngForm" class="form-group" (ngSubmit)="onSubmit(sell.value)">
+                        <input type="text" class="form-control mb-3" placeholder="Enter Name" name="name" ngModel>
+                        <input type="text" class="form-control mb-3" placeholder="Password" name="password" ngModel>
+                        <input type="text" class="form-control mb-3" placeholder="E-mail" name="email" ngModel>
+                        <button class="btn btn-primary">SignUp</button>
+                    </form>
+                </div>
+            </div>
+        </div>  
+</div>
